@@ -1,0 +1,103 @@
+{
+    "Modules": {
+        "...MASTER...": {},
+        "vcs_paramclassrepository": {
+            "Compiled": "Yes",
+            "Compiled Times": 2
+        },
+        "uvm_pkg": {
+            "Compiled": "Yes",
+            "Compiled Times": 2
+        },
+        "top_tb": {
+            "Compiled": "Yes",
+            "Compiled Times": 2
+        },
+        "_vcs_DPI_package": {
+            "Compiled": "Yes",
+            "Compiled Times": 2
+        },
+        "_vcs_unit__2919397984": {
+            "Compiled": "Yes",
+            "Compiled Times": 2
+        },
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 2
+        },
+        "dut": {
+            "Compiled": "Yes",
+            "Compiled Times": 2
+        },
+        "my_if": {
+            "Compiled": "Yes",
+            "Compiled Times": 2
+        }
+    },
+    "CompUnits": {
+        "hEeZs_d": {
+            "mod": "vcs_paramclassrepository",
+            "mode": 4,
+            "out": "hEeZs_d.o",
+            "checksum": 0,
+            "bytes": 4147903,
+            "archive": "archive.1/_11964_archive_1.a"
+        },
+        "ACK5W_d": {
+            "mod": "_vcs_unit__2919397984",
+            "mode": 4,
+            "out": "ACK5W_d.o",
+            "checksum": 0,
+            "bytes": 280744,
+            "archive": "archive.1/_11964_archive_1.a"
+        },
+        "zr7M1_d": {
+            "mod": "uvm_pkg",
+            "mode": 4,
+            "out": "zr7M1_d.o",
+            "checksum": 0,
+            "bytes": 3964899,
+            "archive": "archive.1/_11964_archive_1.a"
+        }
+    },
+    "reusePaths": {
+        "qKzhu_d": {
+            "icPath": "csrc"
+        },
+        "amcQw_d": {
+            "icPath": "csrc"
+        },
+        "uM9F1_d": {
+            "icPath": "csrc"
+        },
+        "reYIK_d": {
+            "icPath": "csrc"
+        },
+        "W0eJz_d": {
+            "icPath": "csrc"
+        },
+        "qKwL8_d": {
+            "icPath": "csrc"
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.1/_11964_archive_1.a",
+            "objects": [
+                [
+                    "hEeZs_d.o",
+                    4147903
+                ],
+                [
+                    "ACK5W_d.o",
+                    280744
+                ],
+                [
+                    "zr7M1_d.o",
+                    3964899
+                ]
+            ],
+            "size": 8393546
+        }
+    ]
+}

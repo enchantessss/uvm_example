@@ -1,0 +1,68 @@
+{
+    "reusePaths": {
+        "amcQw_d": {
+            "icPath": "csrc"
+        },
+        "uM9F1_d": {
+            "icPath": "csrc"
+        },
+        "ACK5W_d": {
+            "icPath": "csrc"
+        },
+        "W0eJz_d": {
+            "icPath": "csrc"
+        },
+        "hEeZs_d": {
+            "icPath": "csrc"
+        },
+        "reYIK_d": {
+            "icPath": "csrc"
+        },
+        "zr7M1_d": {
+            "icPath": "csrc"
+        },
+        "qKwL8_d": {
+            "icPath": "csrc"
+        },
+        "qKzhu_d": {
+            "icPath": "csrc"
+        }
+    },
+    "CompUnits": {},
+    "Modules": {
+        "...MASTER...": {},
+        "my_if": {
+            "Compiled": "Yes",
+            "Compiled Times": 4
+        },
+        "vcs_paramclassrepository": {
+            "Compiled": "Yes",
+            "Compiled Times": 4
+        },
+        "_vcs_DPI_package": {
+            "Compiled": "Yes",
+            "Compiled Times": 4
+        },
+        "_vcs_unit__2919397984": {
+            "Compiled": "Yes",
+            "Compiled Times": 4
+        },
+        "uvm_pkg": {
+            "Compiled": "Yes",
+            "Compiled Times": 4
+        },
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 4
+        },
+        "dut": {
+            "Compiled": "Yes",
+            "Compiled Times": 4
+        },
+        "top_tb": {
+            "Compiled": "Yes",
+            "Compiled Times": 4
+        }
+    },
+    "ObjArchives": []
+}

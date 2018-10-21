@@ -1,0 +1,141 @@
+{
+    "CompileStatus": "Successful",
+    "MlibObjs": {},
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 325006
+    },
+    "CompileProcesses": [
+        "cgproc.30549.json"
+    ],
+    "PrevCompiledModules": {},
+    "NameTable": {
+        "_vcs_DPI_package": [
+            "_vcs_DPI_package",
+            "uM9F1",
+            "module"
+        ],
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "my_if": [
+            "my_if",
+            "qKzhu",
+            "module"
+        ],
+        "vcs_paramclassrepository": [
+            "vcs_paramclassrepository",
+            "hEeZs",
+            "module"
+        ],
+        "_vcs_unit__2919397984": [
+            "_vcs_unit__2919397984",
+            "ACK5W",
+            "module"
+        ],
+        "dut": [
+            "dut",
+            "qKwL8",
+            "module"
+        ],
+        "uvm_pkg": [
+            "uvm_pkg",
+            "zr7M1",
+            "module"
+        ],
+        "top_tb": [
+            "top_tb",
+            "W0eJz",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "CompileStrategy": "fullobj",
+    "stat": {
+        "ru_self_cgstart": {
+            "ru_maxrss_kb": 145572,
+            "ru_utime_sec": 5.5318620000000003,
+            "ru_majflt": 0,
+            "ru_minflt": 19608,
+            "ru_stime_sec": 0.15210599999999999,
+            "ru_nvcsw": 37,
+            "ru_nivcsw": 231
+        },
+        "quadSpeed": 31916.186742931,
+        "totalObjSize": 8907297,
+        "mop/quad": 2.7417057967757579,
+        "ru_childs_cgstart": {
+            "ru_maxrss_kb": 0,
+            "ru_utime_sec": 0.0,
+            "ru_majflt": 0,
+            "ru_minflt": 0,
+            "ru_stime_sec": 0.0,
+            "ru_nvcsw": 0,
+            "ru_nivcsw": 0
+        },
+        "outputSizePerQuad": 105.0,
+        "nQuads": 84547,
+        "mopSpeed": 87504.794204071528,
+        "nMops": 231803,
+        "ru_self_end": {
+            "ru_maxrss_kb": 149032,
+            "ru_utime_sec": 8.1808940000000003,
+            "ru_majflt": 0,
+            "ru_minflt": 21502,
+            "ru_stime_sec": 0.27616499999999999,
+            "ru_nvcsw": 37,
+            "ru_nivcsw": 268
+        },
+        "Frontend(%)": 67.6192846405295,
+        "ru_childs_end": {
+            "ru_maxrss_kb": 0,
+            "ru_utime_sec": 0.0,
+            "ru_majflt": 0,
+            "ru_minflt": 0,
+            "ru_stime_sec": 0.0,
+            "ru_nvcsw": 0,
+            "ru_nivcsw": 0
+        },
+        "CodeGen(%)": 32.380715359470493
+    },
+    "PEModules": [],
+    "CurCompileUdps": {},
+    "CurCompileModules": [
+        "...MASTER...",
+        "...MASTER...",
+        "vcs_paramclassrepository",
+        "vcs_paramclassrepository",
+        "_vcs_DPI_package",
+        "_vcs_DPI_package",
+        "_vcs_unit__2919397984",
+        "_vcs_unit__2919397984",
+        "std",
+        "std",
+        "uvm_pkg",
+        "uvm_pkg",
+        "dut",
+        "dut",
+        "my_if",
+        "my_if",
+        "top_tb",
+        "top_tb"
+    ],
+    "LVLData": [
+        "SIM"
+    ],
+    "Misc": {
+        "cwd": "/home/patrick/uvm_example/example_and_uvm_source_code/puvm/src/ch6/section6.2/6.2.2/one_lock",
+        "default_output_dir": "csrc",
+        "csrc": "csrc",
+        "csrc_abs": "/home/patrick/uvm_example/example_and_uvm_source_code/puvm/src/ch6/section6.2/6.2.2/one_lock/csrc",
+        "daidir": "simv.daidir",
+        "daidir_abs": "/home/patrick/uvm_example/example_and_uvm_source_code/puvm/src/ch6/section6.2/6.2.2/one_lock/simv.daidir",
+        "archive_dir": "archive.0"
+    }
+}

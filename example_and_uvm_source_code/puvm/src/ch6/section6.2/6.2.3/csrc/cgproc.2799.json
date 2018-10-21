@@ -1,0 +1,151 @@
+{
+    "ObjArchives": [
+        {
+            "archive": "archive.0/_2799_archive_1.a",
+            "size": 8575076,
+            "objects": [
+                [
+                    "hEeZs_d.o",
+                    4245418
+                ],
+                [
+                    "uM9F1_d.o",
+                    9331
+                ],
+                [
+                    "ACK5W_d.o",
+                    281319
+                ],
+                [
+                    "reYIK_d.o",
+                    33846
+                ],
+                [
+                    "zr7M1_d.o",
+                    3970209
+                ],
+                [
+                    "qKwL8_d.o",
+                    8786
+                ],
+                [
+                    "qKzhu_d.o",
+                    10659
+                ],
+                [
+                    "W0eJz_d.o",
+                    15508
+                ]
+            ]
+        }
+    ],
+    "reusePaths": {},
+    "Modules": {
+        "...MASTER...": {},
+        "vcs_paramclassrepository": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "_vcs_unit__2919397984": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "_vcs_DPI_package": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "uvm_pkg": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "dut": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "my_if": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "top_tb": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        }
+    },
+    "CompUnits": {
+        "amcQw_d": {
+            "mode": 4,
+            "out": "objs/amcQw_d.o",
+            "mod": "...MASTER...",
+            "bytes": 8255,
+            "checksum": 0
+        },
+        "hEeZs_d": {
+            "mode": 4,
+            "out": "hEeZs_d.o",
+            "mod": "vcs_paramclassrepository",
+            "bytes": 4245418,
+            "checksum": 0,
+            "archive": "archive.0/_2799_archive_1.a"
+        },
+        "uM9F1_d": {
+            "mode": 4,
+            "out": "uM9F1_d.o",
+            "mod": "_vcs_DPI_package",
+            "bytes": 9331,
+            "checksum": 0,
+            "archive": "archive.0/_2799_archive_1.a"
+        },
+        "ACK5W_d": {
+            "mode": 4,
+            "out": "ACK5W_d.o",
+            "mod": "_vcs_unit__2919397984",
+            "bytes": 281319,
+            "checksum": 0,
+            "archive": "archive.0/_2799_archive_1.a"
+        },
+        "qKzhu_d": {
+            "mode": 4,
+            "out": "qKzhu_d.o",
+            "mod": "my_if",
+            "bytes": 10659,
+            "checksum": 0,
+            "archive": "archive.0/_2799_archive_1.a"
+        },
+        "reYIK_d": {
+            "mode": 4,
+            "out": "reYIK_d.o",
+            "mod": "std",
+            "bytes": 33846,
+            "checksum": 0,
+            "archive": "archive.0/_2799_archive_1.a"
+        },
+        "qKwL8_d": {
+            "mode": 4,
+            "out": "qKwL8_d.o",
+            "mod": "dut",
+            "bytes": 8786,
+            "checksum": 0,
+            "archive": "archive.0/_2799_archive_1.a"
+        },
+        "zr7M1_d": {
+            "mode": 4,
+            "out": "zr7M1_d.o",
+            "mod": "uvm_pkg",
+            "bytes": 3970209,
+            "checksum": 0,
+            "archive": "archive.0/_2799_archive_1.a"
+        },
+        "W0eJz_d": {
+            "mode": 4,
+            "out": "W0eJz_d.o",
+            "mod": "top_tb",
+            "bytes": 15508,
+            "checksum": 0,
+            "archive": "archive.0/_2799_archive_1.a"
+        }
+    }
+}

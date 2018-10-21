@@ -1,0 +1,15 @@
+  CREATE_STREAM @0 {NAME:my_case0_cfg_vseq T:Transactions SCOPE:uvm_test_top.v_sqr STREAM:1232}
+  CREATE_STREAM @2900000 {NAME:my_case0_vseq T:Transactions SCOPE:uvm_test_top.v_sqr STREAM:1336}
+  CREATE_STREAM @12900000 {NAME:dseq T:Transactions SCOPE:uvm_test_top.env.i_agt.sqr STREAM:1352}
+  CREATE_STREAM @0 {NAME:my_case0_cfg_vseq T:Transactions SCOPE:uvm_test_top.v_sqr STREAM:1232}
+  CREATE_STREAM @2900000 {NAME:my_case0_vseq T:Transactions SCOPE:uvm_test_top.v_sqr STREAM:1336}
+  CREATE_STREAM @12900000 {NAME:dseq T:Transactions SCOPE:uvm_test_top.env.i_agt.sqr STREAM:1352}
+  CREATE_STREAM @0 {NAME:my_case0_cfg_vseq T:Transactions SCOPE:uvm_test_top.v_sqr STREAM:1276}
+  CREATE_STREAM @3500000 {NAME:my_case0_vseq T:Transactions SCOPE:uvm_test_top.v_sqr STREAM:1362}
+  CREATE_STREAM @13500000 {NAME:dseq T:Transactions SCOPE:uvm_test_top.env.i_agt.sqr STREAM:1370}
+  CREATE_STREAM @0 {NAME:my_case0_cfg_vseq T:Transactions SCOPE:uvm_test_top.v_sqr STREAM:1232}
+  CREATE_STREAM @2900000 {NAME:my_case0_vseq T:Transactions SCOPE:uvm_test_top.v_sqr STREAM:1336}
+  CREATE_STREAM @12900000 {NAME:dseq T:Transactions SCOPE:uvm_test_top.env.i_agt.sqr STREAM:1352}
+  CREATE_STREAM @0 {NAME:my_case0_cfg_vseq T:Transactions SCOPE:uvm_test_top.v_sqr STREAM:1232}
+  CREATE_STREAM @2900000 {NAME:my_case0_vseq T:Transactions SCOPE:uvm_test_top.v_sqr STREAM:1340}
+  CREATE_STREAM @12900000 {NAME:dseq T:Transactions SCOPE:uvm_test_top.env.i_agt.sqr STREAM:1356}

@@ -1,0 +1,4 @@
+  CREATE_STREAM @0 {NAME:case0_sequence T:Transactions SCOPE:uvm_test_top.env.i_agt.sqr STREAM:879}
+  CREATE_STREAM @0 {NAME:my_case0_sequence_inst T:Transactions SCOPE:uvm_test_top.env.i_agt.sqr STREAM:882}
+  CREATE_STREAM @0 {NAME:my_case0_sequence_inst T:Transactions SCOPE:uvm_test_top.env.i_agt.sqr STREAM:882}
+  CREATE_STREAM @0 {NAME:my_case0_sequence_inst T:Transactions SCOPE:uvm_test_top.env.i_agt.sqr STREAM:882}

@@ -1,0 +1,85 @@
+{
+    "Modules": {
+        "...MASTER...": {},
+        "_vcs_unit__2919397984": {
+            "Compiled": "Yes",
+            "Compiled Times": 4
+        },
+        "_vcs_DPI_package": {
+            "Compiled": "Yes",
+            "Compiled Times": 4
+        },
+        "vcs_paramclassrepository": {
+            "Compiled": "Yes",
+            "Compiled Times": 4
+        },
+        "uvm_pkg": {
+            "Compiled": "Yes",
+            "Compiled Times": 4
+        },
+        "my_if": {
+            "Compiled": "Yes",
+            "Compiled Times": 4
+        },
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 4
+        },
+        "dut": {
+            "Compiled": "Yes",
+            "Compiled Times": 4
+        },
+        "top_tb": {
+            "Compiled": "Yes",
+            "Compiled Times": 4
+        }
+    },
+    "CompUnits": {
+        "ACK5W_d": {
+            "mod": "_vcs_unit__2919397984",
+            "bytes": 278593,
+            "out": "ACK5W_d.o",
+            "mode": 4,
+            "archive": "archive.3/_15327_archive_1.a",
+            "checksum": 0
+        }
+    },
+    "reusePaths": {
+        "uM9F1_d": {
+            "icPath": "csrc"
+        },
+        "amcQw_d": {
+            "icPath": "csrc"
+        },
+        "hEeZs_d": {
+            "icPath": "csrc"
+        },
+        "W0eJz_d": {
+            "icPath": "csrc"
+        },
+        "zr7M1_d": {
+            "icPath": "csrc"
+        },
+        "reYIK_d": {
+            "icPath": "csrc"
+        },
+        "qKwL8_d": {
+            "icPath": "csrc"
+        },
+        "qKzhu_d": {
+            "icPath": "csrc"
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.3/_15327_archive_1.a",
+            "objects": [
+                [
+                    "ACK5W_d.o",
+                    278593
+                ]
+            ],
+            "size": 278593
+        }
+    ]
+}

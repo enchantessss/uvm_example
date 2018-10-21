@@ -1,0 +1,94 @@
+{
+    "reusePaths": {
+        "W0eJz_d": {
+            "icPath": "csrc"
+        },
+        "amcQw_d": {
+            "icPath": "csrc"
+        },
+        "reYIK_d": {
+            "icPath": "csrc"
+        },
+        "uM9F1_d": {
+            "icPath": "csrc"
+        },
+        "zr7M1_d": {
+            "icPath": "csrc"
+        },
+        "qKwL8_d": {
+            "icPath": "csrc"
+        },
+        "qKzhu_d": {
+            "icPath": "csrc"
+        }
+    },
+    "Modules": {
+        "...MASTER...": {},
+        "dut": {
+            "Compiled": "Yes",
+            "Compiled Times": 2
+        },
+        "uvm_pkg": {
+            "Compiled": "Yes",
+            "Compiled Times": 2
+        },
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 2
+        },
+        "vcs_paramclassrepository": {
+            "Compiled": "Yes",
+            "Compiled Times": 2
+        },
+        "_vcs_DPI_package": {
+            "Compiled": "Yes",
+            "Compiled Times": 2
+        },
+        "top_tb": {
+            "Compiled": "Yes",
+            "Compiled Times": 2
+        },
+        "_vcs_unit__2919397984": {
+            "Compiled": "Yes",
+            "Compiled Times": 2
+        },
+        "my_if": {
+            "Compiled": "Yes",
+            "Compiled Times": 2
+        }
+    },
+    "CompUnits": {
+        "hEeZs_d": {
+            "bytes": 4218570,
+            "mod": "vcs_paramclassrepository",
+            "out": "hEeZs_d.o",
+            "mode": 4,
+            "archive": "archive.1/_24354_archive_1.a",
+            "checksum": 0
+        },
+        "ACK5W_d": {
+            "bytes": 277430,
+            "mod": "_vcs_unit__2919397984",
+            "out": "ACK5W_d.o",
+            "mode": 4,
+            "archive": "archive.1/_24354_archive_1.a",
+            "checksum": 0
+        }
+    },
+    "ObjArchives": [
+        {
+            "size": 4496000,
+            "archive": "archive.1/_24354_archive_1.a",
+            "objects": [
+                [
+                    "hEeZs_d.o",
+                    4218570
+                ],
+                [
+                    "ACK5W_d.o",
+                    277430
+                ]
+            ]
+        }
+    ]
+}

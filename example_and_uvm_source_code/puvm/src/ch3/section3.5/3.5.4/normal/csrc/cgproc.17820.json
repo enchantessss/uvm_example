@@ -1,0 +1,151 @@
+{
+    "CompUnits": {
+        "amcQw_d": {
+            "mod": "...MASTER...",
+            "out": "objs/amcQw_d.o",
+            "mode": 4,
+            "bytes": 8255,
+            "checksum": 0
+        },
+        "zr7M1_d": {
+            "mod": "uvm_pkg",
+            "out": "zr7M1_d.o",
+            "archive": "archive.0/_17820_archive_1.a",
+            "mode": 4,
+            "bytes": 3954793,
+            "checksum": 0
+        },
+        "hEeZs_d": {
+            "mod": "vcs_paramclassrepository",
+            "out": "hEeZs_d.o",
+            "archive": "archive.0/_17820_archive_1.a",
+            "mode": 4,
+            "bytes": 4219859,
+            "checksum": 0
+        },
+        "uM9F1_d": {
+            "mod": "_vcs_DPI_package",
+            "out": "uM9F1_d.o",
+            "archive": "archive.0/_17820_archive_1.a",
+            "mode": 4,
+            "bytes": 9339,
+            "checksum": 0
+        },
+        "qKzhu_d": {
+            "mod": "my_if",
+            "out": "qKzhu_d.o",
+            "archive": "archive.0/_17820_archive_1.a",
+            "mode": 4,
+            "bytes": 10659,
+            "checksum": 0
+        },
+        "ACK5W_d": {
+            "mod": "_vcs_unit__2919397984",
+            "out": "ACK5W_d.o",
+            "archive": "archive.0/_17820_archive_1.a",
+            "mode": 4,
+            "bytes": 278706,
+            "checksum": 0
+        },
+        "reYIK_d": {
+            "mod": "std",
+            "out": "reYIK_d.o",
+            "archive": "archive.0/_17820_archive_1.a",
+            "mode": 4,
+            "bytes": 33846,
+            "checksum": 0
+        },
+        "qKwL8_d": {
+            "mod": "dut",
+            "out": "qKwL8_d.o",
+            "archive": "archive.0/_17820_archive_1.a",
+            "mode": 4,
+            "bytes": 8786,
+            "checksum": 0
+        },
+        "W0eJz_d": {
+            "mod": "top_tb",
+            "out": "W0eJz_d.o",
+            "archive": "archive.0/_17820_archive_1.a",
+            "mode": 4,
+            "bytes": 15508,
+            "checksum": 0
+        }
+    },
+    "Modules": {
+        "uvm_pkg": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "...MASTER...": {},
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "vcs_paramclassrepository": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "_vcs_DPI_package": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "my_if": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "_vcs_unit__2919397984": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "dut": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "top_tb": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        }
+    },
+    "reusePaths": {},
+    "ObjArchives": [
+        {
+            "objects": [
+                [
+                    "hEeZs_d.o",
+                    4219859
+                ],
+                [
+                    "uM9F1_d.o",
+                    9339
+                ],
+                [
+                    "ACK5W_d.o",
+                    278706
+                ],
+                [
+                    "reYIK_d.o",
+                    33846
+                ],
+                [
+                    "zr7M1_d.o",
+                    3954793
+                ],
+                [
+                    "qKwL8_d.o",
+                    8786
+                ],
+                [
+                    "qKzhu_d.o",
+                    10659
+                ],
+                [
+                    "W0eJz_d.o",
+                    15508
+                ]
+            ],
+            "archive": "archive.0/_17820_archive_1.a",
+            "size": 8531496
+        }
+    ]
+}

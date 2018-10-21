@@ -1,0 +1,11 @@
+#!/bin/csh
+
+#setenv VCS_HOME /home/patrick/Synopsys 
+#setenv UVM_HOME /home/patrick/uvm/uvm-1.2
+#setenv WORK_HOME `pwd`
+#setenv SIM_TOOL VCS 
+#set path = (/home/patrick/Synopsys/bin ${WORK_HOME}/bin $path)
+
+export WORK_HOME=/home/patrick/uvm_example/example_and_uvm_source_code/puvm
+export SIM_TOOL=VCS
+export PATH=$PATH:${WORK_HOME}/bin

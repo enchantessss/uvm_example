@@ -1,0 +1,3 @@
+  CREATE_STREAM @0 {NAME:vseq T:Transactions SCOPE:uvm_test_top.v_sqr STREAM:1520}
+  CREATE_STREAM @0 {NAME:vseq T:Transactions SCOPE:uvm_test_top.env0.i_agt.sqr STREAM:1529}
+  CREATE_STREAM @0 {NAME:vseq T:Transactions SCOPE:uvm_test_top.env1.i_agt.sqr STREAM:1538}

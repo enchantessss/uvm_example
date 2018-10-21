@@ -1,0 +1,4 @@
+  CREATE_STREAM @0 {NAME:case0_vseq T:Transactions SCOPE:uvm_test_top.v_sqr STREAM:1237}
+  CREATE_STREAM @0 {NAME:bseq T:Transactions SCOPE:uvm_test_top.env.bus_agt.sqr STREAM:1258}
+  CREATE_STREAM @0 {NAME:case0_vseq T:Transactions SCOPE:uvm_test_top.v_sqr STREAM:1237}
+  CREATE_STREAM @0 {NAME:bseq T:Transactions SCOPE:uvm_test_top.env.bus_agt.sqr STREAM:1258}

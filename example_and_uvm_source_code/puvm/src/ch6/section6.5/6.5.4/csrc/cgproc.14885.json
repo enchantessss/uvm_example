@@ -1,0 +1,112 @@
+{
+    "CompUnits": {
+        "ACK5W_d": {
+            "mod": "_vcs_unit__2919397984",
+            "bytes": 280654,
+            "out": "ACK5W_d.o",
+            "checksum": 0,
+            "mode": 4,
+            "archive": "archive.1/_14885_archive_1.a"
+        },
+        "hEeZs_d": {
+            "mod": "vcs_paramclassrepository",
+            "bytes": 4257231,
+            "out": "hEeZs_d.o",
+            "checksum": 0,
+            "mode": 4,
+            "archive": "archive.1/_14885_archive_1.a"
+        },
+        "zr7M1_d": {
+            "mod": "uvm_pkg",
+            "bytes": 3956697,
+            "out": "zr7M1_d.o",
+            "checksum": 0,
+            "mode": 4,
+            "archive": "archive.1/_14885_archive_1.a"
+        },
+        "W0eJz_d": {
+            "mod": "top_tb",
+            "bytes": 18342,
+            "out": "W0eJz_d.o",
+            "checksum": 0,
+            "mode": 4,
+            "archive": "archive.1/_14885_archive_1.a"
+        }
+    },
+    "Modules": {
+        "...MASTER...": {},
+        "dut": {
+            "Compiled": "Yes",
+            "Compiled Times": 2
+        },
+        "vcs_paramclassrepository": {
+            "Compiled": "Yes",
+            "Compiled Times": 2
+        },
+        "_vcs_DPI_package": {
+            "Compiled": "Yes",
+            "Compiled Times": 2
+        },
+        "_vcs_unit__2919397984": {
+            "Compiled": "Yes",
+            "Compiled Times": 2
+        },
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 2
+        },
+        "uvm_pkg": {
+            "Compiled": "Yes",
+            "Compiled Times": 2
+        },
+        "my_if": {
+            "Compiled": "Yes",
+            "Compiled Times": 2
+        },
+        "top_tb": {
+            "Compiled": "Yes",
+            "Compiled Times": 2
+        }
+    },
+    "reusePaths": {
+        "qKzhu_d": {
+            "icPath": "csrc"
+        },
+        "amcQw_d": {
+            "icPath": "csrc"
+        },
+        "qKwL8_d": {
+            "icPath": "csrc"
+        },
+        "uM9F1_d": {
+            "icPath": "csrc"
+        },
+        "reYIK_d": {
+            "icPath": "csrc"
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.1/_14885_archive_1.a",
+            "objects": [
+                [
+                    "hEeZs_d.o",
+                    4257231
+                ],
+                [
+                    "ACK5W_d.o",
+                    280654
+                ],
+                [
+                    "zr7M1_d.o",
+                    3956697
+                ],
+                [
+                    "W0eJz_d.o",
+                    18342
+                ]
+            ],
+            "size": 8512924
+        }
+    ]
+}

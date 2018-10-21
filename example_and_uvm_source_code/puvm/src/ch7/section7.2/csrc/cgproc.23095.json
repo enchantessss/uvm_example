@@ -1,0 +1,101 @@
+{
+    "Modules": {
+        "...MASTER...": {},
+        "uvm_pkg": {
+            "Compiled": "Yes",
+            "Compiled Times": 5
+        },
+        "dut": {
+            "Compiled": "Yes",
+            "Compiled Times": 5
+        },
+        "_vcs_unit__1685195356": {
+            "Compiled": "Yes",
+            "Compiled Times": 5
+        },
+        "vcs_paramclassrepository": {
+            "Compiled": "Yes",
+            "Compiled Times": 5
+        },
+        "_vcs_DPI_package": {
+            "Compiled": "Yes",
+            "Compiled Times": 5
+        },
+        "bus_if": {
+            "Compiled": "Yes",
+            "Compiled Times": 5
+        },
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 5
+        },
+        "my_if": {
+            "Compiled": "Yes",
+            "Compiled Times": 5
+        },
+        "top_tb": {
+            "Compiled": "Yes",
+            "Compiled Times": 5
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.4/_23095_archive_1.a",
+            "objects": [
+                [
+                    "hEeZs_d.o",
+                    4916757
+                ],
+                [
+                    "TCGB0_d.o",
+                    466231
+                ]
+            ],
+            "size": 5382988
+        }
+    ],
+    "CompUnits": {
+        "TCGB0_d": {
+            "mod": "_vcs_unit__1685195356",
+            "mode": 4,
+            "bytes": 466231,
+            "out": "TCGB0_d.o",
+            "checksum": 0,
+            "archive": "archive.4/_23095_archive_1.a"
+        },
+        "hEeZs_d": {
+            "mod": "vcs_paramclassrepository",
+            "mode": 4,
+            "bytes": 4916757,
+            "out": "hEeZs_d.o",
+            "checksum": 0,
+            "archive": "archive.4/_23095_archive_1.a"
+        }
+    },
+    "reusePaths": {
+        "zr7M1_d": {
+            "icPath": "csrc"
+        },
+        "amcQw_d": {
+            "icPath": "csrc"
+        },
+        "uM9F1_d": {
+            "icPath": "csrc"
+        },
+        "reYIK_d": {
+            "icPath": "csrc"
+        },
+        "qKwL8_d": {
+            "icPath": "csrc"
+        },
+        "qKzhu_d": {
+            "icPath": "csrc"
+        },
+        "mWbA5_d": {
+            "icPath": "csrc"
+        },
+        "W0eJz_d": {
+            "icPath": "csrc"
+        }
+    }
+}

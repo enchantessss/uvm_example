@@ -1,0 +1,9 @@
+#!/bin/sh -h 
+PYTHONHOME=/home/patrick/Synopsys/etc/search/pyh
+export PYTHONHOME
+PYTHONPATH=/home/patrick/Synopsys/linux64/lib/pylib27
+export PYTHONPATH
+LD_LIBRARY_PATH=/home/patrick/Synopsys/linux64/lib:/home/patrick/Synopsys/linux64/lib/pylib27
+export LD_LIBRARY_PATH
+/home/patrick/Synopsys/linux64/bin/vcsfind_create_index.exe  -z  "/home/patrick/uvm_example/example_and_uvm_source_code/puvm/src/ch5/section5.2/5.2.5/simv.daidir/debug_dump/fsearch/./idents_1xFSW5.xml.gz" "/home/patrick/uvm_example/example_and_uvm_source_code/puvm/src/ch5/section5.2/5.2.5/simv.daidir/debug_dump/fsearch/./idents_tapi.xml.gz" -o "/home/patrick/uvm_example/example_and_uvm_source_code/puvm/src/ch5/section5.2/5.2.5/simv.daidir/debug_dump/fsearch/fsearch.db_tmp"
+\mv "/home/patrick/uvm_example/example_and_uvm_source_code/puvm/src/ch5/section5.2/5.2.5/simv.daidir/debug_dump/fsearch/fsearch.db_tmp" "/home/patrick/uvm_example/example_and_uvm_source_code/puvm/src/ch5/section5.2/5.2.5/simv.daidir/debug_dump/fsearch/fsearch.db"

@@ -1,0 +1,100 @@
+Command: ./simv +UVM_PHASE_TRACE -l mylog.txt +UVM_TESTNAME=my_case0
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06_Full64; Runtime version L-2016.06_Full64;  Oct  7 18:30 2018
+UVM_INFO /home/patrick/uvm/uvm-1.2/src/base/uvm_root.svh(392) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test my_case0...
+UVM_INFO /home/patrick/uvm/uvm-1.2/src/base/uvm_phase.svh(1345) @ 0: reporter [PH/TRC/STRT] Phase 'common' (id=187) Starting phase
+UVM_INFO /home/patrick/uvm/uvm-1.2/src/base/uvm_phase.svh(1620) @ 0: reporter [PH/TRC/DONE] Phase 'common' (id=187) Completed phase
+UVM_INFO /home/patrick/uvm/uvm-1.2/src/base/uvm_phase.svh(1655) @ 0: reporter [PH/TRC/SCHEDULED] Phase 'common.build' (id=190) Scheduled from phase common
+UVM_INFO /home/patrick/uvm/uvm-1.2/src/base/uvm_phase.svh(1345) @ 0: reporter [PH/TRC/STRT] Phase 'common.build' (id=190) Starting phase
+UVM_INFO /home/patrick/uvm/uvm-1.2/src/base/uvm_phase.svh(1620) @ 0: reporter [PH/TRC/DONE] Phase 'common.build' (id=190) Completed phase
+UVM_INFO /home/patrick/uvm/uvm-1.2/src/base/uvm_phase.svh(1655) @ 0: reporter [PH/TRC/SCHEDULED] Phase 'common.connect' (id=193) Scheduled from phase common.build
+UVM_INFO /home/patrick/uvm/uvm-1.2/src/base/uvm_phase.svh(1345) @ 0: reporter [PH/TRC/STRT] Phase 'common.connect' (id=193) Starting phase
+UVM_INFO /home/patrick/uvm/uvm-1.2/src/base/uvm_phase.svh(1620) @ 0: reporter [PH/TRC/DONE] Phase 'common.connect' (id=193) Completed phase
+UVM_INFO /home/patrick/uvm/uvm-1.2/src/base/uvm_phase.svh(1655) @ 0: reporter [PH/TRC/SCHEDULED] Phase 'common.end_of_elaboration' (id=196) Scheduled from phase common.connect
+UVM_INFO /home/patrick/uvm/uvm-1.2/src/base/uvm_phase.svh(1345) @ 0: reporter [PH/TRC/STRT] Phase 'common.end_of_elaboration' (id=196) Starting phase
+UVM_INFO /home/patrick/uvm/uvm-1.2/src/base/uvm_phase.svh(1620) @ 0: reporter [PH/TRC/DONE] Phase 'common.end_of_elaboration' (id=196) Completed phase
+UVM_INFO /home/patrick/uvm/uvm-1.2/src/base/uvm_phase.svh(1655) @ 0: reporter [PH/TRC/SCHEDULED] Phase 'common.start_of_simulation' (id=199) Scheduled from phase common.end_of_elaboration
+UVM_INFO /home/patrick/uvm/uvm-1.2/src/base/uvm_phase.svh(1345) @ 0: reporter [PH/TRC/STRT] Phase 'common.start_of_simulation' (id=199) Starting phase
+UVM_INFO /home/patrick/uvm/uvm-1.2/src/base/uvm_phase.svh(1620) @ 0: reporter [PH/TRC/DONE] Phase 'common.start_of_simulation' (id=199) Completed phase
+UVM_INFO /home/patrick/uvm/uvm-1.2/src/base/uvm_phase.svh(1655) @ 0: reporter [PH/TRC/SCHEDULED] Phase 'common.run' (id=202) Scheduled from phase common.start_of_simulation
+UVM_INFO /home/patrick/uvm/uvm-1.2/src/base/uvm_phase.svh(1655) @ 0: reporter [PH/TRC/SCHEDULED] Phase 'uvm' (id=222) Scheduled from phase common.start_of_simulation
+UVM_INFO /home/patrick/uvm/uvm-1.2/src/base/uvm_phase.svh(1345) @ 0: reporter [PH/TRC/STRT] Phase 'common.run' (id=202) Starting phase
+UVM_INFO /home/patrick/uvm/uvm-1.2/src/base/uvm_phase.svh(1345) @ 0: reporter [PH/TRC/STRT] Phase 'uvm' (id=222) Starting phase
+UVM_INFO /home/patrick/uvm/uvm-1.2/src/base/uvm_phase.svh(1620) @ 0: reporter [PH/TRC/DONE] Phase 'uvm' (id=222) Completed phase
+UVM_INFO /home/patrick/uvm/uvm-1.2/src/base/uvm_phase.svh(1655) @ 0: reporter [PH/TRC/SCHEDULED] Phase 'uvm.uvm_sched' (id=224) Scheduled from phase uvm
+UVM_INFO /home/patrick/uvm/uvm-1.2/src/base/uvm_phase.svh(1345) @ 0: reporter [PH/TRC/STRT] Phase 'uvm.uvm_sched' (id=224) Starting phase
+UVM_INFO /home/patrick/uvm/uvm-1.2/src/base/uvm_phase.svh(1620) @ 0: reporter [PH/TRC/DONE] Phase 'uvm.uvm_sched' (id=224) Completed phase
+UVM_INFO /home/patrick/uvm/uvm-1.2/src/base/uvm_phase.svh(1655) @ 0: reporter [PH/TRC/SCHEDULED] Phase 'uvm.uvm_sched.pre_reset' (id=227) Scheduled from phase uvm.uvm_sched
+UVM_INFO /home/patrick/uvm/uvm-1.2/src/base/uvm_phase.svh(1345) @ 0: reporter [PH/TRC/STRT] Phase 'uvm.uvm_sched.pre_reset' (id=227) Starting phase
+UVM_INFO /home/patrick/uvm/uvm-1.2/src/base/uvm_phase.svh(1439) @ 0: reporter [PH/TRC/SKIP] Phase 'uvm.uvm_sched.pre_reset' (id=227) No objections raised, skipping phase
+UVM_INFO /home/patrick/uvm/uvm-1.2/src/base/uvm_phase.svh(1439) @ 0: reporter [PH/TRC/SKIP] Phase 'common.run' (id=202) No objections raised, skipping phase
+UVM_INFO /home/patrick/uvm/uvm-1.2/src/base/uvm_phase.svh(1620) @ 0: reporter [PH/TRC/DONE] Phase 'uvm.uvm_sched.pre_reset' (id=227) Completed phase
+UVM_INFO /home/patrick/uvm/uvm-1.2/src/base/uvm_phase.svh(1655) @ 0: reporter [PH/TRC/SCHEDULED] Phase 'uvm.uvm_sched.reset' (id=236) Scheduled from phase uvm.uvm_sched.pre_reset
+UVM_INFO /home/patrick/uvm/uvm-1.2/src/base/uvm_phase.svh(1345) @ 0: reporter [PH/TRC/STRT] Phase 'uvm.uvm_sched.reset' (id=236) Starting phase
+UVM_INFO my_driver.sv(25) @ 0: uvm_test_top.env.i_agt.drv [driver] reset phase
+UVM_INFO my_case0.sv(15) @ 0: uvm_test_top [case0] reset_phase
+UVM_INFO /home/patrick/uvm/uvm-1.2/src/base/uvm_phase.svh(1495) @ 500000: reporter [PH/TRC/TIMEOUT] Phase 'common.run' (id=202) PHASE TIMEOUT WATCHDOG EXPIRED
+UVM_INFO /home/patrick/uvm/uvm-1.2/src/base/uvm_phase.svh(1499) @ 500000: reporter [PH/TRC/TIMEOUT/OBJCTN] Phase 'common.run' (id=202) Phase 'uvm.uvm_sched.reset' has outstanding objections:
+The total objection count is 1
+---------------------------------------------------------
+Source  Total   
+Count   Count   Object
+---------------------------------------------------------
+0       1       uvm_top
+0       1         uvm_test_top
+0       1           env
+0       1             i_agt
+1       1               drv
+---------------------------------------------------------
+
+UVM_FATAL /home/patrick/uvm/uvm-1.2/src/base/uvm_phase.svh(1506) @ 500000: reporter [PH_TIMEOUT] Explicit timeout of 500000 hit, indicating a probable testbench issue
+UVM_INFO /home/patrick/uvm/uvm-1.2/src/base/uvm_report_server.svh(847) @ 500000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   35
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    1
+** Report counts by id
+[PH/TRC/DONE]     8
+[PH/TRC/SCHEDULED]     9
+[PH/TRC/SKIP]     2
+[PH/TRC/STRT]    10
+[PH/TRC/TIMEOUT]     1
+[PH/TRC/TIMEOUT/OBJCTN]     1
+[PH_TIMEOUT]     1
+[RNTST]     1
+[UVM/RELNOTES]     1
+[case0]     1
+[driver]     1
+
+$finish called from file "/home/patrick/uvm/uvm-1.2/src/base/uvm_root.svh", line 135.
+$finish at simulation time               500000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 500000 ps
+CPU Time:      0.450 seconds;       Data structure size:   0.3Mb
+Sun Oct  7 18:30:12 2018
