@@ -90,6 +90,8 @@ class my_case0 extends base_test;
       super.new(name,parent);
    endfunction 
    extern virtual function void build_phase(uvm_phase phase); 
+   extern task configure_phase(uvm_phase phase);
+   extern task main_phase(uvm_phase phase);
    `uvm_component_utils(my_case0)
 endclass
 
@@ -97,14 +99,28 @@ endclass
 function void my_case0::build_phase(uvm_phase phase);
    super.build_phase(phase);
 
-   uvm_config_db#(uvm_object_wrapper)::set(this, 
-                                           "v_sqr.configure_phase", 
-                                           "default_sequence", 
-                                           case0_cfg_vseq::type_id::get());
-   uvm_config_db#(uvm_object_wrapper)::set(this, 
-                                           "v_sqr.main_phase", 
-                                           "default_sequence", 
-                                           case0_vseq::type_id::get());
+   //uvm_config_db#(uvm_object_wrapper)::set(this, 
+   //                                        "v_sqr.configure_phase", 
+   //                                        "default_sequence", 
+   //                                        case0_cfg_vseq::type_id::get());
+   //uvm_config_db#(uvm_object_wrapper)::set(this, 
+   //                                        "v_sqr.main_phase", 
+   //                                        "default_sequence", 
+   //                                        case0_vseq::type_id::get());
 endfunction
+task my_case0::configure_phase(uvm_phase phase);
+    case0_cfg_vseq my_case0_cfg_vseq;
+    super.main_phase(phase);
+    my_case0_cfg_vseq = new("my_case0_cfg_vseq");
+    my_case0_cfg_vseq.starting_phase = phase;
+    my_case0_cfg_vseq.start(v_sqr);
+endtask
 
+task my_case0::main_phase(uvm_phase phase);
+    case0_vseq my_case0_vseq;
+    super.main_phase(phase);
+    my_case0_vseq = new("my_case0_vseq");
+    my_case0_vseq.starting_phase = phase;
+    my_case0_vseq.start(v_sqr);
+endtask
 `endif
